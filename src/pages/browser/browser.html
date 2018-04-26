@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>
+      REDIRECTOR
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item>
+        <ion-input type="url" placeholder="Insérer votre url" [(ngModel)]="url"></ion-input>
+    </ion-item>
+
+    <br>
+    <div class="row">
+      <div class="col" text-center>
+          <button ion-button round (click)="chargerPageWeb(url)">Charger page Web</button>
+      </div>
+    </div>
+</ion-content>
