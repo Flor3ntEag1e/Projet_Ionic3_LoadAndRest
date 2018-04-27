@@ -19,3 +19,16 @@ Nous allons suivre 6 étapes pour créer ce projet:
   <li>Ajout d'un loading lors du chargement de la deuxième page</li>
 </ul>
 
+
+<h3>Build du projet avec IONIC CLI</h3>
+<b>Pour déployer le projet, prenez votre terminal et entrer dans votre projet. Faites ensuite les commandes suivantes:</b>
+<ul>
+  <li>npm install</li>
+  <li>ionic serve -l</li>
+</ul>
+
+<b>Pour lancer l'application sur son smartphone android:</b>
+<ul>
+  <li>ionic cordova platform add android</li>
+  <li>ionic cordova run android --device</li>
+</ul>
